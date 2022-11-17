@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  height: 100vh;
+ height: 100vh; 
+ overflow: auto;
   margin: 0;
-  overflow: hidden;
+  
   font-family: Roboto, sans-serif;
 
   display:flex;
@@ -134,4 +135,33 @@ button {
     display: flex;
     justify-content: center;
     gap:50px ;
+    padding-bottom: 50px;
 }
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    background-color:#E5E7EB;
+    padding: 100px;
+    
+    
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+.author {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
